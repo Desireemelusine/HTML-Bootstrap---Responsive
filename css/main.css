@@ -1,0 +1,215 @@
+/*----------Structure----------*/
+body{
+  background-color: #c6bcb6;
+  font-family: 'Gruppo', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lustria', serif;
+}
+
+h2{
+  font-family: 'Gruppo', cursive;
+  font-weight: 200;
+  color: #666666;
+  margin-bottom: 0.5em;
+}
+
+p{
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+}
+
+span{
+  font-family: 'Lustria', serif;
+  color: #666666;
+  text-align: center;
+}
+
+section{
+  border:0.01em solid #ffffff;
+  background-color: hsla(300, 15%, 75%, 0.32);
+}
+
+hr{
+  color: #9a87a3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a{
+  color:#796482;
+}
+
+#figure{
+  margin: 0;
+}
+
+.boxinfo{
+  border:0.01em solid #ffffff;
+  background-color: hsla(300, 15%, 75%, 0.32);
+}
+
+.front_image{
+  width: 100%;
+}
+
+.featured{
+  font-family: 'Lustria', serif;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+  margin-top: auto;
+}
+
+.header{
+text-align: center;
+}
+
+.title_section{
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.image_section{
+  max-width: 100%;
+  height: auto;
+}
+
+.words{
+line-height: 1.25em;
+text-align: center;
+font-size: 0.85rem;
+font-family: 'Lustria', serif;
+color: #666666;
+margin-top: -0.5em;
+}
+
+@media screen and (max-width: 500px) {
+
+  .logo{
+  width:6.0em;
+  margin-bottom: 0;
+  }
+
+  .footer_span{
+     color:#ffff;
+    font-size: 0.75rem;
+  }
+
+  .section{
+    margin-bottom: 1em;
+  }
+
+  .align_section{
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+@media screen and (min-width: 501px) {
+
+  .logo{
+  width:8em;
+  margin-bottom: 0;
+  }
+
+  .words{
+  font-size: 0.95rem;
+  }
+
+  .featured{
+    font-size: 1.15rem;
+  }
+
+  .one_third{
+  display: flex;
+  }
+
+  .section{
+    margin: 0.5em;
+  }
+
+  .title_section{
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid #ffffff;
+  }
+
+  .footer_span{
+    font-size: 1.00rem;
+    float: left;
+  }
+
+  .text-right{
+    float: right;
+  }
+
+}
+
+@media screen and (min-width: 701px) {
+  .logo{
+  width:10em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  }
+
+  .words{
+  font-size: 1.25rem;
+  }
+
+  .featured{
+    font-size: 1.5rem;
+  }
+
+  .one_third{
+  display: flex;
+  }
+
+  .title_section{
+    font-size: 1.8rem;
+    margin-bottom: 0.80em;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  .logo{
+  width:12em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  }
+
+  .words{
+  font-size: 1.25rem;
+  }
+
+  .featured{
+    font-size: 1.75rem;
+  }
+
+  .section{
+    margin: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  .title_section{
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .footer_span{
+    font-size: 1.25rem;
+    float: left;
+  }
+
+}
