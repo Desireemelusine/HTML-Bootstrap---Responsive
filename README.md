@@ -11,4 +11,4 @@ The page is fully responsive and works on mobile, tablet and desktop browsers
 * @media screen and (min-width: 501px)
 * @media screen and (min-width: 1000px)
 
-![alt text](images/screenshoots.jpg)
+Click on the link on the description to visit the website
